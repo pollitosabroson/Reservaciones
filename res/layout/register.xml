@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apaterno" />
+
+    <EditText
+        android:id="@+id/et_apaterno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amaterno" />
+
+    <EditText
+        android:id="@+id/et_amaterno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sexo" />
+
+    <EditText
+        android:id="@+id/sexo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sexohint"
+        android:ems="10" > 
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edad" />
+
+    <EditText
+        android:id="@+id/edadcliente"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ninos" />
+
+    <EditText
+        android:id="@+id/ninos"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adultos" />
+      <EditText
+        android:id="@+id/adultos"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+      <Button
+          android:id="@+id/boton2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="@string/aceptar" />
+
+</LinearLayout>
